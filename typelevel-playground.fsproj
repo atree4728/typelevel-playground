@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>typelevel_playground</RootNamespace>
+    <ProduceReferenceAssembly>false</ProduceReferenceAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="FSharp.TypeProviders.SDK/src/ProvidedTypes.fsi" />
+    <Compile Include="FSharp.TypeProviders.SDK/src/ProvidedTypes.fs" />
+    <Compile Include="Model.fs" />
+    <Compile Include="RPNProvider.fs" />
+  </ItemGroup>
+</Project>
